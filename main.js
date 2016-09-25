@@ -11,6 +11,7 @@ var $orders4 = $('#orders4');
 var $orders5 = $('#orders5');
 var $orders6 = $('#orders6');
 var $orders7 = $('#orders7');
+var $orders8 = $('#orders8');
 
 $.ajax({
 
@@ -40,6 +41,7 @@ $orders6.append( orders.paths[0].tags   );
 $orders7.append(  '<center><a href="'+orders.paths[0].sign_up+'"' + ' class="btn btn-info btn-lg" target="_blank"   role="button" >' + '<span class="glyphicon glyphicon-paperclip"></span>' +" View Curriculum"+'</a> </center'  );
 
 
+
 for (var i=0; i<orders.paths.length; i++) {
  console.log(orders.paths[i].name);
 
@@ -47,7 +49,7 @@ for (var i=0; i<orders.paths.length; i++) {
 
 }
 
-            
+     $orders8.append( orders.paths.length ); 
 		
 
 			 

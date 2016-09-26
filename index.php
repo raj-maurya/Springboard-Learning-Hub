@@ -1,0 +1,174 @@
+<?php
+
+?>
+
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Springboard--Learning Hub </title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    <!--  <a class="navbar-brand" href="#">Springboard</a> -->
+       <img alt="Brand" src="pic3.png">
+     
+
+     <ul class="nav navbar-nav navbar-right">
+           <li ><a href ="#"> <span class="glyphicon glyphicon-user" > </span>  Sign Up</a></li>
+            <li><a href="#"> <span class="glyphicon glyphicon-log-in"> </span> Login</a></li>
+          </ul>
+</nav>
+
+
+
+
+
+<div class="jumbotron">
+
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              
+           <p>   <span class="glyphicon glyphicon-th-large"></span> Sort By</p>
+           <div>
+              <form>
+    <div class="radio">
+      <label><input type="radio" name="optradio">Vote (Up)</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="optradio">Vote (Down)</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" name="optradio" >Learners</label>
+    </div>
+    <div class="radio ">
+      <label><input type="radio" name="optradio" >Duration</label>
+    </div>
+  </form>
+
+  </br>
+  </br>
+  <div>
+  <button type="button" class="btn btn-success">Total up votes: 61</button>
+  </div>
+  </div>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span9">
+          <div class="hero-unit">
+
+<div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search (by tag )">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Go!</button>
+      </span>
+    </div>
+
+    </br>
+    </br>
+    <div>
+<ul id="orders1"></ul>
+
+
+
+
+		
+		
+</br>
+
+<div class="list-group">
+  <a  class="list-group-item active">
+    <h4 class="list-group-item-heading"><ul id="orders2"></ul> </h4>
+      </a>
+      </div>
+
+       </div> 
+  </div>
+<div>
+	
+
+</div>
+             
+
+
+
+            
+          </div>
+          <div class="row-fluid">
+            <div class="span4">
+
+ <div class="panel panel-primary">
+      <div class="panel-heading"><ul id="orders5"></ul></div>
+      
+    </div>
+   <div> <ul class="glyphicon glyphicon-tags" id="orders6"> </ul></div>
+        
+              <p> </p>
+              
+               
+            <div   class="alert alert-success" class="pull-right" role="alert"> <ul class="glyphicon glyphicon-user" id="orders3"></ul></div> 
+              <div class="alert alert-info" role="alert"> <ul  class="glyphicon glyphicon-time" id="orders4"></ul></div>
+           
+
+           
+
+<ul  id="orders7"></ul>
+            </div><!--/span-->
+          
+          </div><!--/row-->
+        </div><!--/span-->
+
+
+      </div><!--/row-->
+       <div class="panel panel-success">
+      <div class="panel-heading"><center><h3>Total Products <p class="
+glyphicon glyphicon-globe" id="orders8"> </p></h3></center></div>
+      <div class="panel-body">
+      <ol  id="orders"></ol>
+    
+      </div>
+    </div>
+
+      <hr>
+
+
+
+
+
+  
+</div>
+
+</div>
+
+<div class="panel panel-default">
+  
+<h5><center><strong>Made by Raj Kumar Maurya (<em> GitHub- https://github.com/raj-maurya</em>)</strong></center></h5>
+
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script  src="main.js"   type="text/javascript"></script>
+
+</body>
+</html>

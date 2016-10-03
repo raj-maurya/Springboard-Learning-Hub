@@ -26,7 +26,7 @@
         <span class="icon-bar"></span>
       </button>
     <!--  <a class="navbar-brand" href="#">Springboard</a> -->
-       <img alt="Brand" src="img/pic3.png">
+       <img alt="Brand" src="pic3.png">
      
 
      <ul class="nav navbar-nav navbar-right">

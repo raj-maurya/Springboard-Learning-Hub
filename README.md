@@ -3,7 +3,7 @@
 
 ### Visit Live App at http://webspringboard.herokuapp.com/
 
-
+#### Note: API is currently down: https://hackerearth.0x10.info/api/learning-paths?type=json&query=list_paths
 
 
 ## Screenshots
